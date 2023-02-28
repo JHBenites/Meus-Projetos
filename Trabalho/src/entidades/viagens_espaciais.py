@@ -6,7 +6,8 @@ class OrbitaTerrestre:
         self.mobilidade_extraveicular = mobilidade_extraveicular
 
     def __str__(self):
-        return self.empresa + ' - Número de Órbitas: ' + str(self.numero_de_orbitas) + str(self.__to_str_mobilidade_extraveicular__())
+        return self.empresa + ' - Número de Órbitas: ' + str(self.numero_de_orbitas) +\
+            str(self.__to_str_mobilidade_extraveicular__())
 
     def __to_str_mobilidade_extraveicular__(self):
         if not self.mobilidade_extraveicular:
