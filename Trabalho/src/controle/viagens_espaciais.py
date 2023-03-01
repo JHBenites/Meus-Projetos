@@ -1,4 +1,4 @@
-from entidades.viagens_espaciais import inserir_orbita_terrestre, OrbitaTerrestre, \
+from entidades.orbita_terrestre import inserir_orbita_terrestre, OrbitaTerrestre, \
     get_orbitas_terrestre, selecionar_orbita_terrestre
 
 def inserir():
