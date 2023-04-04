@@ -4,7 +4,8 @@ def get_cliente(): return clientes
 def inserir_cliente(cliente):
     cpf_cliente = cliente.cpf
     if cpf_cliente not in clientes.keys(): clientes[cpf_cliente] = cliente
-    else: print('Cliente já cadastrado')
+    else: print('Cliente já foi cadastrado')
+
 
 class Cliente:
     def __init__(self, nome, peso, cpf, data_nascimento, sexo, endereço):
